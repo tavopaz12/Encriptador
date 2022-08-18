@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/internet-crime-concept-hacker-working-2034659.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+}
+
+header h1 {
+  color: white;
+}
+
+/* ESCRIBIR TEXTO */
+.encriptador {
+  margin-top: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+
+.encriptador .campText {
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  background-color: White;
+  outline: 1px solid rgb(168, 10, 10);
+}
+
+.encriptador .mainCampText .important {
+  color: white;
+  font-style: italic;
+}
+
+.encriptador .mainCampText .btnEncri {
+  width: 49%;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-weight: 800;
+  background-color: rgb(5, 86, 139);
+}
+
+.encriptador .mainCampText .btnEncri:hover {
+  background-color: rgb(48, 114, 158);
+}
+
+.encriptador .mainCampText .btnDesencri {
+  width: 49%;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-weight: 800;
+  background-color: rgb(9, 90, 13);
+}
+
+.encriptador .mainCampText .btnDesencri:hover {
+  background-color: rgb(34, 126, 38);
+}
+
+.encriptador .mainCampText h2 {
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* MOSTRAR MENSAJE */
+.mainShowMsg .showMsg {
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 10px;
+  background-color: white;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.mainShowMsg .copy {
+  width: 100%;
+  background-color: rgb(10, 111, 136);
+  padding: 15px;
+  border: none;
+  color: white;
+  font-weight: 800;
+}
+/* @media (max-width: 900px) {
+  .encriptador {
+    display: block;
+  }
+} */

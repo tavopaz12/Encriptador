@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Encriptador</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <h1>ENCRIPTADOR</h1> 
+    </header>
+
+    <div class="encriptador">
+        <div class="mainCampText">
+            <h2>ESCRIBE EL TEXTO PARA ENCRIPTAR</h2>
+            <div>
+                <textarea id="mensaje" class="campText" rows="20" required placeholder="Ingresa el texto aqui"></textarea>
+            </div>
+            <p class="important">*** solo letras minusculas y sin acentos</p>
+            <button class="btnEncri" id="btnEncri">ENCRIPTAR</button>
+            <button class="btnDesencri" id="btnDesencri">DESENCRIPTAR</button>
+        </div>
+
+        <div class="mainShowMsg">
+            <textarea class="showMsg">
+            </textarea>
+            <button class="copy" id="copy">COPIAR</button>
+        </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+    </body>
+</html>
